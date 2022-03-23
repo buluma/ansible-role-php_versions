@@ -18,9 +18,7 @@ galaxy_info:
         - all
     - name: Ubuntu
       versions:
-        - trusty
-        - xenial
-        - bionic
+        - all
   galaxy_tags:
     - php
     - web
