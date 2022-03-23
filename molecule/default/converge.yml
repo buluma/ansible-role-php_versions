@@ -14,7 +14,7 @@
   roles:
     - role: geerlingguy.repo-remi
       when: ansible_os_family == 'RedHat'
-    - role: buluma.php_versions
+    - role: geerlingguy.php-versions
     - role: buluma.php
 
   post_tasks:
