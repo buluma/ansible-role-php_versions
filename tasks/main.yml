@@ -37,5 +37,9 @@
   set_fact:
     php_install_recommends: "{{ php_versions_install_recommends }}"
 
+- name: Install certifi python package
+  pip:
+    name: certifi
+
 # Setup tasks.
 - include_tasks: "setup-{{ ansible_os_family }}.yml"

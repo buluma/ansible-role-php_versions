@@ -2,6 +2,6 @@
 roles:
   - name: geerlingguy.repo-remi
     when: ansible_os_family == 'RedHat'
-  - name: geerlingguy.php-versions
+  - name: buluma.php_versions
   - name: buluma.php
 collections: []

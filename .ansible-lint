@@ -18,3 +18,4 @@ skip_list:
   - 'role-name'
   - 'set_fact'
   - 'fqcn-builtins'
+  - 'experimental'
