@@ -17,3 +17,4 @@ skip_list:
   - 'no-handler'
   - 'role-name'
   - 'set_fact'
+  - 'fqcn-builtins'
