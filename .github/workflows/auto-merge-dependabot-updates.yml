@@ -5,11 +5,13 @@
 
 name: Auto Merge Dependency Updates
 
-on: pull_request
+on: 
+ - pull_request_target
+ - pull_request
 
 permissions:
   contents: write
-  pull-requests: write  # Needed if in a private repository
+  pull-requests: write
 
 jobs:
   dependabot:
