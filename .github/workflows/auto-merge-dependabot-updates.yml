@@ -8,19 +8,13 @@ name: Auto Merge Dependency Updates
 on:
   - pull_request_target
 
-permissions:
-  contents: write
-  pull-requests: write  # Needed if in a private repository
-
 jobs:
-  dependabot:
+  run:
     runs-on: ubuntu-latest
-    if: ${{ github.actor == 'buluma' || github.actor == 'dependabot[bot]' }}
+    permissions:
+      contents: write
+      pull-requests: write
     steps:
-      - name: Enable auto-merge for Dependabot PRs
-        run: gh pr merge --auto --merge "$PR_URL"
-        env:
-          PR_URL: ${{github.event.pull_request.html_url}}
-          # GitHub provides this variable in the CI env. You don't
-          # need to add anything to the secrets vault.
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      - uses: tjenkinson/gh-action-auto-merge-dependency-updates@v1.1.8
+        with:
+          allowed-actors: buluma, dependabot-preview[bot], dependabot[bot]
