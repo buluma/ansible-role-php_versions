@@ -6,6 +6,12 @@
 
 **Merged pull requests:**
 
+- Bump buluma/molecule-action from 5.0.8 to 5.0.9 [\#14](https://github.com/buluma/ansible-role-php_versions/pull/14) ([dependabot[bot]](https://github.com/apps/dependabot))
+- Bump actions/checkout from 3 to 4 [\#13](https://github.com/buluma/ansible-role-php_versions/pull/13) ([dependabot[bot]](https://github.com/apps/dependabot))
+- Bump buluma/molecule-action from 5.0.7 to 5.0.8 [\#12](https://github.com/buluma/ansible-role-php_versions/pull/12) ([dependabot[bot]](https://github.com/apps/dependabot))
+- Bump buluma/molecule-action from 5.0.6 to 5.0.7 [\#11](https://github.com/buluma/ansible-role-php_versions/pull/11) ([dependabot[bot]](https://github.com/apps/dependabot))
+- Bump buluma/molecule-action from 5.0.5 to 5.0.6 [\#10](https://github.com/buluma/ansible-role-php_versions/pull/10) ([dependabot[bot]](https://github.com/apps/dependabot))
+- Bump buluma/molecule-action from 5.0.4 to 5.0.5 [\#9](https://github.com/buluma/ansible-role-php_versions/pull/9) ([dependabot[bot]](https://github.com/apps/dependabot))
 - Bump buluma/gitlab-mirror-ci-action from 1.0.6 to 1.0.7 [\#8](https://github.com/buluma/ansible-role-php_versions/pull/8) ([dependabot[bot]](https://github.com/apps/dependabot))
 - Bump buluma/molecule-action from 4.0.7 to 5.0.4 [\#7](https://github.com/buluma/ansible-role-php_versions/pull/7) ([dependabot[bot]](https://github.com/apps/dependabot))
 - Bump buluma/gh-action-auto-merge-dependabot-updates from 1.0.3 to 1.0.4 [\#1](https://github.com/buluma/ansible-role-php_versions/pull/1) ([dependabot[bot]](https://github.com/apps/dependabot))
