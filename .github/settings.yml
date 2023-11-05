@@ -5,4 +5,4 @@
 repository:
   description: Allows different PHP versions to be installed.
   homepage: https://buluma.github.io/
-  topics: php, web, drupal, vm, magento, wordpress, ansible, molecule, tox, playbook, hacktoberfest
+  topics: php, web, drupal, vm, magento, wordpress, ansible, molecule, tox, playbook
