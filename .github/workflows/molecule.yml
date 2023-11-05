@@ -30,8 +30,17 @@ jobs:
     steps:
       - name: checkout
         uses: actions/checkout@v4
+<<<<<<< HEAD
       - name: ansible-lint
         uses: ansible-community/ansible-lint-action@main
+=======
+        with:
+          path: "${{ github.repository }}"
+      - name: molecule
+        uses: buluma/molecule-action@v5.0.9
+        with:
+          command: lint
+>>>>>>> 38b577c7e025beac340f1a78858d83a8d9991050
   test:
     needs:
       - lint

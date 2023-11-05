@@ -6,6 +6,8 @@
 
 **Merged pull requests:**
 
+- Bump buluma/gitlab-mirror-ci-action from 1.0.6 to 1.0.7 [\#8](https://github.com/buluma/ansible-role-php_versions/pull/8) ([dependabot[bot]](https://github.com/apps/dependabot))
+- Bump buluma/molecule-action from 4.0.7 to 5.0.4 [\#7](https://github.com/buluma/ansible-role-php_versions/pull/7) ([dependabot[bot]](https://github.com/apps/dependabot))
 - Bump buluma/gh-action-auto-merge-dependabot-updates from 1.0.3 to 1.0.4 [\#1](https://github.com/buluma/ansible-role-php_versions/pull/1) ([dependabot[bot]](https://github.com/apps/dependabot))
 
 ## [0.1.1](https://github.com/buluma/ansible-role-php_versions/tree/0.1.1) (2022-03-23)

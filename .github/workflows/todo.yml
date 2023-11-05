@@ -12,7 +12,11 @@ jobs:
   build:
     runs-on: "ubuntu-20.04"
     steps:
+<<<<<<< HEAD
       - uses: "actions/checkout@master"
+=======
+      - uses: "actions/checkout@v4"
+>>>>>>> 38b577c7e025beac340f1a78858d83a8d9991050
       - name: "TODO to Issue"
         uses: "alstr/todo-to-issue-action@v2.3"  # TODO: Update buluma/todo-to-issue-action@v1.0.1 @buluma
         id: "todo"
