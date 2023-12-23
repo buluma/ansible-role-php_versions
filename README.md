@@ -2,9 +2,9 @@
 
 Allows different PHP versions to be installed.
 
-|GitHub|GitLab|Downloads|Version|Issues|Pull Requests|
-|------|------|-------|-------|------|-------------|
-|[![github](https://github.com/buluma/ansible-role-php_versions/actions/workflows/molecule.yml/badge.svg)](https://github.com/buluma/ansible-role-php_versions/actions/workflows/molecule.yml)|[![gitlab](https://gitlab.com/shadowwalker/ansible-role-php_versions/badges/master/pipeline.svg)](https://gitlab.com/shadowwalker/ansible-role-php_versions)|[![downloads](https://img.shields.io/ansible/role/d/4801)](https://galaxy.ansible.com/buluma/php_versions)|[![Version](https://img.shields.io/github/release/buluma/ansible-role-php_versions.svg)](https://github.com/buluma/ansible-role-php_versions/releases/)|[![Issues](https://img.shields.io/github/issues/buluma/ansible-role-php_versions.svg)](https://github.com/buluma/ansible-role-php_versions/issues/)|[![PullRequests](https://img.shields.io/github/issues-pr-closed-raw/buluma/ansible-role-php_versions.svg)](https://github.com/buluma/ansible-role-php_versions/pulls/)|
+|GitHub|Version|Issues|Pull Requests|
+|------|-------|------|-------------|
+|[![github](https://github.com/buluma/ansible-role-php_versions/actions/workflows/molecule.yml/badge.svg)](https://github.com/buluma/ansible-role-php_versions/actions/workflows/molecule.yml)|[![Version](https://img.shields.io/github/release/buluma/ansible-role-php_versions.svg)](https://github.com/buluma/ansible-role-php_versions/releases/)|[![Issues](https://img.shields.io/github/issues/buluma/ansible-role-php_versions.svg)](https://github.com/buluma/ansible-role-php_versions/issues/)|[![PullRequests](https://img.shields.io/github/issues-pr-closed-raw/buluma/ansible-role-php_versions.svg)](https://github.com/buluma/ansible-role-php_versions/pulls/)|
 
 ## [Example Playbook](#example-playbook)
 
@@ -59,11 +59,11 @@ php_versions_install_recommends: false
 
 The following roles are used to prepare a system. You can prepare your system in another way.
 
-| Requirement | GitHub | GitLab |
+| Requirement | GitHub | Version |
 |-------------|--------|--------|
-|[geerlingguy.repo-remi](https://galaxy.ansible.com/buluma/geerlingguy.repo-remi)|[![Build Status GitHub](https://github.com/buluma/geerlingguy.repo-remi/workflows/Ansible%20Molecule/badge.svg)](https://github.com/buluma/geerlingguy.repo-remi/actions)|[![Build Status GitLab](https://gitlab.com/shadowwalker/geerlingguy.repo-remi/badges/master/pipeline.svg)](https://gitlab.com/shadowwalker/geerlingguy.repo-remi)|
-|[buluma.php_versions](https://galaxy.ansible.com/buluma/php_versions)|[![Build Status GitHub](https://github.com/buluma/ansible-role-php_versions/workflows/Ansible%20Molecule/badge.svg)](https://github.com/buluma/ansible-role-php_versions/actions)|[![Build Status GitLab](https://gitlab.com/shadowwalker/ansible-role-php_versions/badges/master/pipeline.svg)](https://gitlab.com/shadowwalker/ansible-role-php_versions)|
-|[buluma.php](https://galaxy.ansible.com/buluma/php)|[![Build Status GitHub](https://github.com/buluma/ansible-role-php/workflows/Ansible%20Molecule/badge.svg)](https://github.com/buluma/ansible-role-php/actions)|[![Build Status GitLab](https://gitlab.com/shadowwalker/ansible-role-php/badges/master/pipeline.svg)](https://gitlab.com/shadowwalker/ansible-role-php)|
+|[geerlingguy.repo-remi](https://galaxy.ansible.com/buluma/geerlingguy.repo-remi)|[![Build Status GitHub](https://github.com/buluma/geerlingguy.repo-remi/workflows/Ansible%20Molecule/badge.svg)](https://github.com/buluma/geerlingguy.repo-remi/actions)|[![Version](https://img.shields.io/github/release/buluma/geerlingguy.repo-remi.svg)](https://github.com/shadowwalker/geerlingguy.repo-remi)|
+|[buluma.php_versions](https://galaxy.ansible.com/buluma/php_versions)|[![Build Status GitHub](https://github.com/buluma/ansible-role-php_versions/workflows/Ansible%20Molecule/badge.svg)](https://github.com/buluma/ansible-role-php_versions/actions)|[![Version](https://img.shields.io/github/release/buluma/ansible-role-php_versions.svg)](https://github.com/shadowwalker/ansible-role-php_versions)|
+|[buluma.php](https://galaxy.ansible.com/buluma/php)|[![Build Status GitHub](https://github.com/buluma/ansible-role-php/workflows/Ansible%20Molecule/badge.svg)](https://github.com/buluma/ansible-role-php/actions)|[![Version](https://img.shields.io/github/release/buluma/ansible-role-php.svg)](https://github.com/shadowwalker/ansible-role-php)|
 
 ## [Context](#context)
 
@@ -103,7 +103,6 @@ If you find issues, please register them in [GitHub](https://github.com/buluma/a
 
 [buluma](https://buluma.github.io/)
 
-Please consider [sponsoring me](https://github.com/sponsors/buluma).
 
 ### [Special Thanks](#special-thanks)
 
