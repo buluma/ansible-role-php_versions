@@ -6,10 +6,12 @@
 
 **Closed issues:**
 
+- Update buluma/todo-to-issue-action@v1.0.1 @buluma [\#19](https://github.com/buluma/ansible-role-php_versions/issues/19)
 - Update buluma/todo-to-issue-action@v1.0.1 @buluma [\#17](https://github.com/buluma/ansible-role-php_versions/issues/17)
 
 **Merged pull requests:**
 
+- Bump alstr/todo-to-issue-action from 2.3 to 4.11 [\#22](https://github.com/buluma/ansible-role-php_versions/pull/22) ([dependabot[bot]](https://github.com/apps/dependabot))
 - Bump alstr/todo-to-issue-action from 2.3 to 4.11 [\#20](https://github.com/buluma/ansible-role-php_versions/pull/20) ([dependabot[bot]](https://github.com/apps/dependabot))
 - Bump alstr/todo-to-issue-action from 2.3 to 4.11 [\#18](https://github.com/buluma/ansible-role-php_versions/pull/18) ([dependabot[bot]](https://github.com/apps/dependabot))
 - Bump alstr/todo-to-issue-action from 2.3 to 4.11 [\#16](https://github.com/buluma/ansible-role-php_versions/pull/16) ([dependabot[bot]](https://github.com/apps/dependabot))
