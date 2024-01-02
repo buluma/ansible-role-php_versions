@@ -12,6 +12,7 @@
 
 **Merged pull requests:**
 
+- Bump actions/checkout from 3 to 4 [\#24](https://github.com/buluma/ansible-role-php_versions/pull/24) ([dependabot[bot]](https://github.com/apps/dependabot))
 - Bump buluma/todo-to-issue-action from 2.0.0 to 2.0.1 [\#23](https://github.com/buluma/ansible-role-php_versions/pull/23) ([dependabot[bot]](https://github.com/apps/dependabot))
 - Bump alstr/todo-to-issue-action from 2.3 to 4.11 [\#22](https://github.com/buluma/ansible-role-php_versions/pull/22) ([dependabot[bot]](https://github.com/apps/dependabot))
 - Bump alstr/todo-to-issue-action from 2.3 to 4.11 [\#20](https://github.com/buluma/ansible-role-php_versions/pull/20) ([dependabot[bot]](https://github.com/apps/dependabot))
