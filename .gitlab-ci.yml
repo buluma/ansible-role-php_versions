@@ -1,5 +1,5 @@
 ---
-image: "buluma/github-action-molecule:5.1.1"
+image: "buluma/github-action-molecule:v6.0.0"
 
 variables:
   PY_COLORS: 1
