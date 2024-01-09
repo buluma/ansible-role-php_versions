@@ -4,6 +4,10 @@
 
 [Full Changelog](https://github.com/buluma/ansible-role-php_versions/compare/0.1.1...HEAD)
 
+**Implemented enhancements:**
+
+- Configure Renovate [\#25](https://github.com/buluma/ansible-role-php_versions/pull/25) ([renovate[bot]](https://github.com/apps/renovate))
+
 **Closed issues:**
 
 - Update buluma/todo-to-issue-action@v1.0.1 @buluma [\#21](https://github.com/buluma/ansible-role-php_versions/issues/21)
@@ -12,6 +16,9 @@
 
 **Merged pull requests:**
 
+- Update dependency ubuntu to v22 [\#29](https://github.com/buluma/ansible-role-php_versions/pull/29) ([renovate[bot]](https://github.com/apps/renovate))
+- Update buluma/github-action-molecule Docker tag to v6 [\#27](https://github.com/buluma/ansible-role-php_versions/pull/27) ([renovate[bot]](https://github.com/apps/renovate))
+- Update act10ns/slack action to v2 [\#26](https://github.com/buluma/ansible-role-php_versions/pull/26) ([renovate[bot]](https://github.com/apps/renovate))
 - Bump actions/checkout from 3 to 4 [\#24](https://github.com/buluma/ansible-role-php_versions/pull/24) ([dependabot[bot]](https://github.com/apps/dependabot))
 - Bump buluma/todo-to-issue-action from 2.0.0 to 2.0.1 [\#23](https://github.com/buluma/ansible-role-php_versions/pull/23) ([dependabot[bot]](https://github.com/apps/dependabot))
 - Bump alstr/todo-to-issue-action from 2.3 to 4.11 [\#22](https://github.com/buluma/ansible-role-php_versions/pull/22) ([dependabot[bot]](https://github.com/apps/dependabot))
