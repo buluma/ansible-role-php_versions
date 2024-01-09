@@ -19,8 +19,13 @@ concurrency:
 
 
 jobs:
+<<<<<<< HEAD
   dependabot_merge:
     runs-on: "ubuntu-latest"
+=======
+  build:
+    runs-on: "ubuntu-22.04"
+>>>>>>> fc2bbee8a9467a199ca661c012498296c81a8b5d
     steps:
       - uses: "actions/checkout@master"
       - name: Dependabot Auto Merge Action

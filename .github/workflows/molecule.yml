@@ -35,14 +35,20 @@ concurrency:
 
 jobs:
   lint:
-    runs-on: ubuntu-20.04
+    runs-on: ubuntu-22.04
     steps:
       - name: checkout
         uses: actions/checkout@v4
       - name: ansible-lint
         uses: ansible-community/ansible-lint-action@main
   test:
+<<<<<<< HEAD
     runs-on: ubuntu-20.04
+=======
+    needs:
+      - lint
+    runs-on: ubuntu-22.04
+>>>>>>> fc2bbee8a9467a199ca661c012498296c81a8b5d
     strategy:
       fail-fast: false
       matrix:
