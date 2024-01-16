@@ -1,6 +1,6 @@
 ---
 - name: Include OS-specific variables.
-  include_vars: "{{ item }}"
+  ansible.builtin.include_vars: "{{ item }}"
   with_fileglob:
     - "{{ role_path }}/vars/{{ ansible_os_family }}.yml"
     - "{{ role_path }}/vars/{{ ansible_os_family }}-php{{ php_version }}.yml"
@@ -13,7 +13,7 @@
     - php_version is version('8.0', '>=')
 
 - name: Define PHP variables.
-  set_fact: "{{ item.key }}={{ lookup('vars', item.value) }}"
+  ansible.builtin.set_fact: "{{ item.key }}={{ lookup('vars', item.value) }}"
   when:
     - vars[item.key] is undefined
     - vars[item.value] is defined
@@ -42,4 +42,6 @@
     name: certifi
 
 # Setup tasks.
-- include_tasks: "setup-{{ ansible_os_family }}.yml"
+- name: Setup tasks
+  ansible.builtin.import_tasks: 
+    file: "setup-{{ ansible_os_family }}.yml"
