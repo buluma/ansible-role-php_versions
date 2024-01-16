@@ -12,6 +12,7 @@ exclude_paths:
 skip_list:
   - yaml[truthy]
   - no-free-form
+  - no-handler
 
 enable_list:
   - name[prefix]
