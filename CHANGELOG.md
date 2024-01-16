@@ -16,6 +16,7 @@
 
 **Merged pull requests:**
 
+- Bump buluma/molecule-action from 6.0.0 to 6.0.1 [\#30](https://github.com/buluma/ansible-role-php_versions/pull/30) ([dependabot[bot]](https://github.com/apps/dependabot))
 - Update dependency ubuntu to v22 [\#29](https://github.com/buluma/ansible-role-php_versions/pull/29) ([renovate[bot]](https://github.com/apps/renovate))
 - Update buluma/github-action-molecule Docker tag to v6 [\#27](https://github.com/buluma/ansible-role-php_versions/pull/27) ([renovate[bot]](https://github.com/apps/renovate))
 - Update act10ns/slack action to v2 [\#26](https://github.com/buluma/ansible-role-php_versions/pull/26) ([renovate[bot]](https://github.com/apps/renovate))
