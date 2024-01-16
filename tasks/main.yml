@@ -41,7 +41,6 @@
   ansible.builtin.pip:
     name: certifi
 
-# Setup tasks.
 - name: Setup tasks
-  ansible.builtin.import_tasks: 
+  ansible.builtin.import_tasks:
     file: "setup-{{ ansible_os_family }}.yml"
