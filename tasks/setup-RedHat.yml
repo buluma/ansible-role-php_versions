@@ -21,7 +21,7 @@
 - name: dnf based setup
   block:
   - name: Ensure dnf-plugins are installed on CentOS 8+.
-    yum:
+    ansible.builtin.yum:
       name: dnf-plugins-core
       state: present
 
