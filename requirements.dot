@@ -1,0 +1,15 @@
+digraph PhiloDilemma {
+  label = "Michael Buluma" ;
+  overlap=false
+  {
+    "php_versions" [fillcolor=yellow style=filled penwidth=3]
+    "geerlingguy.repo-remi" [fillcolor=green style=filled]
+    "==" [fillcolor=green style=filled]
+    "buluma.php_versions" [fillcolor=green style=filled]
+    "buluma.php" [fillcolor=green style=filled]
+  }
+  "php_versions" -> "geerlingguy.repo-remi"
+  "php_versions" -> "=="
+  "php_versions" -> "buluma.php_versions"
+  "php_versions" -> "buluma.php"
+}
