@@ -15,6 +15,7 @@ This example is taken from [`molecule/default/converge.yml`](https://github.com/
 - name: Converge
   hosts: all
   become: true
+  gather_facts: true
 
   vars:
     php_enable_webserver: false
